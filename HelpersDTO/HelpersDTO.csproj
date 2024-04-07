@@ -4,13 +4,18 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>HelpersLibrary</Title>
+    <Description>библиотека для обмена между микровервисами учебного проекта ОТУС команда DoctorDTO</Description>
+    <AssemblyVersion>1.0.0.1</AssemblyVersion>
+    <FileVersion>1.0.0.1</FileVersion>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
     <Folder Include="Authentication\Enums\" />
     <Folder Include="Authentication\DTO\" />
     <Folder Include="CallCenter\Enums\" />
-    <Folder Include="CallCenter\DTO\" />
     <Folder Include="Doctor\Enums\" />
     <Folder Include="Patient\Enums\" />
     <Folder Include="Patient\DTO\" />
