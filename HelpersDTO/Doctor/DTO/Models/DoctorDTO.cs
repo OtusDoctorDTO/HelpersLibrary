@@ -1,6 +1,6 @@
 ﻿using HelpersDTO.Base.Models;
 
-namespace HelpersDTO.Doctor.DTO
+namespace HelpersDTO.Doctor.DTO.Models
 {
     /// <summary>
     /// Доктор
