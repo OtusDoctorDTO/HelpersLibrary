@@ -1,4 +1,6 @@
-﻿namespace HelpersDTO.CallCenter.DTO.Models
+﻿using HelpersDTO.Base.Models;
+
+namespace HelpersDTO.CallCenter.DTO.Models
 {
     public class PatientDto
     {

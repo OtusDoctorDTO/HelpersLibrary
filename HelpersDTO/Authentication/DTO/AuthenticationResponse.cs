@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HelpersDTO.Doctor.DTO
+namespace HelpersDTO.Authentication.DTO
 {
     public class AuthenticationResponse
     {

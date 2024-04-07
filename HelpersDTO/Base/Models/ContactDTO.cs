@@ -1,4 +1,4 @@
-﻿namespace HelpersDTO.CallCenter.DTO.Models
+﻿namespace HelpersDTO.Base.Models
 {
     /// <summary>
     /// Контакты
