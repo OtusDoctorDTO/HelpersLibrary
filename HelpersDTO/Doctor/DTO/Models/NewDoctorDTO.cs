@@ -3,12 +3,10 @@
 namespace HelpersDTO.Doctor.DTO.Models
 {
     /// <summary>
-    /// Доктор
+    /// Сущность для создания нового доктора
     /// </summary>
-    public class DoctorDTO
+    public class NewDoctorDTO
     {
-        public Guid Id { get; set; }
-
         /// <summary>
         /// ФИО
         /// </summary>
@@ -17,7 +15,7 @@ namespace HelpersDTO.Doctor.DTO.Models
         /// <summary>
         /// Контакты
         /// </summary>
-        public ContactDTO Contacts { get; set; }
+        public ContactDTO? Contacts { get; set; }
 
         /// <summary>
         /// Специальность
