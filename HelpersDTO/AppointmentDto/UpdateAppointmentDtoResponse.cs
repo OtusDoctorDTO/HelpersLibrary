@@ -1,6 +1,6 @@
 ﻿using HelpersDTO.Base;
 
-namespace HelpersDTO.CallCenter.DTO
+namespace HelpersDTO.AppointmentDto
 {
     public class UpdateAppointmentDtoResponse : ServiceResponse
     {
