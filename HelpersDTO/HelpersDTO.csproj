@@ -13,7 +13,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Authentication\DTO\Models\" />
     <Folder Include="Authentication\Enums\" />
     <Folder Include="CallCenter\Enums\" />
     <Folder Include="Doctor\Enums\" />
