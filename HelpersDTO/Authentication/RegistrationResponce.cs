@@ -1,4 +1,9 @@
 ﻿namespace HelpersDTO.Authentication
 {
-    public record RegistrationResponse(bool Flag = false, List<string> Messages = null!, string? token = null!);
+    public class RegistrationResponse
+    {
+        public bool Flag { get; }
+        public List<string> Messages { get; set; } = new();
+        public string? Token { get; set; } = string.Empty;
+    }
 }
