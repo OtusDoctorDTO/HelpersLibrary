@@ -35,11 +35,11 @@
         /// <summary>
         /// Идентификатор пациента
         /// </summary>
-        public Guid PatientId { get; set; }
+        public Guid? PatientId { get; set; }
 
         /// <summary>
         /// Статус
         /// </summary>
-        public string Status { get; set; }
+        public string? Status { get; set; } = default;
     }
 }
