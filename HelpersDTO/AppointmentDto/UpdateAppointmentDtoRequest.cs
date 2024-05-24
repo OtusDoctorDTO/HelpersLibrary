@@ -10,6 +10,6 @@ namespace HelpersDTO.AppointmentDto
         /// <summary>
         /// Запись
         /// </summary>
-        public UpdatingAppointmentDto Appointment {  get; set; }
+        public UpdateStatusAppointmentDto Appointment {  get; set; }
     }
 }
