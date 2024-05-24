@@ -13,12 +13,20 @@
         public decimal Price { get; set; }
 
         /// <summary>
-        /// Время начала записи
+        /// Полное время начала записи
         /// </summary>
         public DateTime StartDate { get; set; }
         /// <summary>
         /// Идентификатор врача
         /// </summary>
         public Guid DoctorId { get; set; }
+        /// <summary>
+        /// Только дата начала записи
+        /// </summary>
+        public DateOnly Date { get; set; }
+        /// <summary>
+        /// Только время начала записи
+        /// </summary>
+        public TimeOnly Time { get; set; }
     }
 }
