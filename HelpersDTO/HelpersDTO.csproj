@@ -7,9 +7,9 @@
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Title>HelpersLibrary</Title>
     <Description>библиотека для обмена между микровервисами учебного проекта ОТУС команда DoctorDTO</Description>
-    <AssemblyVersion>1.0.0.20</AssemblyVersion>
-    <FileVersion>1.0.0.20</FileVersion>
-    <Version>1.0.20</Version>
+    <AssemblyVersion>1.0.0.21</AssemblyVersion>
+    <FileVersion>1.0.0.21</FileVersion>
+    <Version>1.0.21</Version>
   </PropertyGroup>
 
   <ItemGroup>
