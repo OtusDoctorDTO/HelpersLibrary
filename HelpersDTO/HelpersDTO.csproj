@@ -13,11 +13,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Patient\DTO\**" />
+    <EmbeddedResource Remove="Patient\DTO\**" />
+    <None Remove="Patient\DTO\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Authentication\Enums\" />
     <Folder Include="CallCenter\Enums\" />
     <Folder Include="Doctor\Enums\" />
     <Folder Include="Patient\Enums\" />
-    <Folder Include="Patient\DTO\" />
+    <Folder Include="Patient\DTO2\" />
   </ItemGroup>
 
 </Project>
