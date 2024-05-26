@@ -22,6 +22,6 @@ namespace HelpersDTO.Doctor.DTO.Models
         /// <summary>
         /// Специальность
         /// </summary>
-        public string Specialty { get; set; }
+        public string? Specialty { get; set; }
     }
 }
