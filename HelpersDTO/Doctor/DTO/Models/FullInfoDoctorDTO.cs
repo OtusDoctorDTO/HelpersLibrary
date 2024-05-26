@@ -3,7 +3,7 @@
 namespace HelpersDTO.Doctor.DTO.Models
 {
     /// <summary>
-    /// Полная информация о докторе
+    /// Полная информация о докторе !
     /// </summary>
     public class FullInfoDoctorDTO
     {
