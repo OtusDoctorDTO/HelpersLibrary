@@ -23,7 +23,6 @@
     <Folder Include="CallCenter\Enums\" />
     <Folder Include="Doctor\Enums\" />
     <Folder Include="Patient\Enums\" />
-    <Folder Include="Patient\DTO2\" />
   </ItemGroup>
 
 </Project>
