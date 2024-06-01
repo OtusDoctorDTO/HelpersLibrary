@@ -28,5 +28,9 @@
         /// Только время начала записи
         /// </summary>
         public TimeOnly Time { get; set; }
+        /// <summary>
+        /// Идентификатор пациента
+        /// </summary>
+        public Guid? PatientId { get; set; }
     }
 }
