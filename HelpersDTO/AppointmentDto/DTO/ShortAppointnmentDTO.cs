@@ -16,21 +16,30 @@
         /// Полное время начала записи
         /// </summary>
         public DateTime StartDate { get; set; }
+
         /// <summary>
         /// Идентификатор врача
         /// </summary>
         public Guid DoctorId { get; set; }
+
         /// <summary>
         /// Только дата начала записи
         /// </summary>
         public DateOnly Date { get; set; }
+
         /// <summary>
         /// Только время начала записи
         /// </summary>
         public TimeOnly Time { get; set; }
+
         /// <summary>
         /// Идентификатор пациента
         /// </summary>
         public Guid? PatientId { get; set; }
+
+        /// <summary>
+        /// Статус
+        /// </summary>
+        public string? Status { get; set; }
     }
 }
