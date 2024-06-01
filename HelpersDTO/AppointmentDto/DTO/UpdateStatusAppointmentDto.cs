@@ -13,9 +13,9 @@ namespace HelpersDTO.AppointmentDto.DTO
         public Guid Id { get; set; }
 
         /// <summary>
-        /// Идентификатор пациента
+        /// Идентификатор пациента (если он не указан, то обновляться не будет)
         /// </summary>
-        public Guid PatientId { get; set; }
+        public Guid? PatientId { get; set; }
 
         /// <summary>
         /// Статус

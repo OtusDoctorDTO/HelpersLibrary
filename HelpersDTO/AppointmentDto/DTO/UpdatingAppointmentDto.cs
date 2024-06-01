@@ -30,7 +30,7 @@ namespace HelpersDTO.AppointmentDto.DTO
         /// <summary>
         /// Идентификатор пациента
         /// </summary>
-        public Guid PatientId { get; set; }
+        public Guid? PatientId { get; set; }
         /// <summary>
         /// Статус
         /// </summary>
