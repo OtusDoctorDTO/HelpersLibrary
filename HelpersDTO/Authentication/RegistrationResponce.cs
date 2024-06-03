@@ -2,7 +2,7 @@
 {
     public class RegistrationResponse
     {
-        public bool Flag { get; }
+        public bool Flag { get; set; }
         public List<string> Messages { get; set; } = new();
         public string? Token { get; set; } = string.Empty;
         public Guid? UserId { get; set; }
