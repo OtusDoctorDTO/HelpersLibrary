@@ -17,5 +17,7 @@
             Token = token;
             UserId = userId;
         }
+
+        public RegistrationResponse(){}
     }
 }
