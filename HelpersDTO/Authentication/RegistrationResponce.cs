@@ -2,22 +2,9 @@
 {
     public class RegistrationResponse
     {
-        public bool Flag { get; set; }
-        public List<string> Messages { get; set; } = new();
-        public string? Token { get; set; } = string.Empty;
+        public bool? Flag { get; set; }
+        public List<string>? Messages { get; set; }
+        public string? Token { get; set; }
         public Guid? UserId { get; set; }
-        public RegistrationResponse(bool flag)
-        {
-            Flag = flag;
-        }
-        public RegistrationResponse(bool flag, List<string> messages, string? token, Guid? userId)
-        {
-            Flag = flag;
-            Messages = messages;
-            Token = token;
-            UserId = userId;
-        }
-
-        public RegistrationResponse(){}
     }
 }
