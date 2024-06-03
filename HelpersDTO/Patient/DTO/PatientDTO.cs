@@ -29,7 +29,7 @@ namespace HelpersDTO.Patient.DTO
         /// <summary>
         /// Email
         /// </summary>
-        public string Email { get; set; }
+        public string? Email { get; set; }
 
         /// <summary>
         /// Телефон
@@ -45,5 +45,10 @@ namespace HelpersDTO.Patient.DTO
         /// Статус
         /// </summary>
         public string? Status { get; set; } = default;
+
+        /// <summary>
+        /// Является ли новым пациентом и нужно составить договор
+        /// </summary>
+        public bool IsNew { get; set; } = default;
     }
 }
