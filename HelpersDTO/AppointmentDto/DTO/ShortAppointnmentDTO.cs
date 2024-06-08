@@ -20,7 +20,7 @@
         /// <summary>
         /// Идентификатор врача
         /// </summary>
-        public Guid DoctorId { get; set; }
+        public Guid? DoctorId { get; set; }
 
         /// <summary>
         /// Только дата начала записи

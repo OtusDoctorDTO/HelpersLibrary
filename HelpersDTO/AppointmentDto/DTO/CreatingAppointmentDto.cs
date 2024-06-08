@@ -22,10 +22,10 @@ namespace HelpersDTO.AppointmentDto.DTO
         /// <summary>
         /// Идентификатор врача
         /// </summary>
-        public Guid DoctorId { get; set; }
+        public Guid? DoctorId { get; set; }
         /// <summary>
         /// Идентификатор пациента
         /// </summary>
-        public Guid PatientId { get; set; }
+        public Guid? PatientId { get; set; }
     }
 }
