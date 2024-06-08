@@ -19,5 +19,11 @@
         /// Количество записей
         /// </summary>
         public int? Count { get; set; }
+
+        /// <summary>
+        /// Сортировка по убыванию ASC - false, DESC - true (по умолчанию сортировка по убыванию)
+        /// </summary>
+        public bool DateASC { get; set; }
+
     }
 }

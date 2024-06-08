@@ -16,22 +16,25 @@
         public decimal Price { get; set; }
 
         /// <summary>
-        /// Дата создания
-        /// </summary>
-        public DateTime CreateDate { get; set; }
-
-        /// <summary>
         /// Продолжительность приема
         /// </summary>
         public int Duration { get; set; }
+
+        /// <summary>
+        /// Дата начала записи
+        /// </summary>
+        public DateOnly Date { get; set; }
+
         /// <summary>
         /// Время начала записи
         /// </summary>
-        public DateTime Time { get; set; }
+        public TimeOnly Time { get; set; }
+
         /// <summary>
         /// Идентификатор врача
         /// </summary>
-        public Guid DoctorId { get; set; }
+        public Guid? DoctorId { get; set; }
+
         /// <summary>
         /// Идентификатор пациента
         /// </summary>
