@@ -2,7 +2,7 @@
 
 namespace HelpersDTO.Patient
 {
-    internal class CreatePatientResponse : ServiceResponse
+    public class CreatePatientResponse : ServiceResponse
     {
     }
 }
