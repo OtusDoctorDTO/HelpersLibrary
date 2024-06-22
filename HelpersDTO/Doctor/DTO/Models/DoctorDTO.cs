@@ -12,12 +12,12 @@ namespace HelpersDTO.Doctor.DTO.Models
         /// <summary>
         /// ФИО
         /// </summary>
-        public BaseUserDTO User { get; set; }
+        public BaseUserDTO? User { get; set; }
 
         /// <summary>
         /// Контакты
         /// </summary>
-        public ContactDTO Contacts { get; set; }
+        public ContactDTO? Contacts { get; set; }
 
         /// <summary>
         /// Специальность

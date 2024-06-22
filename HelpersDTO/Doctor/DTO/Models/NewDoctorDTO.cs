@@ -10,7 +10,7 @@ namespace HelpersDTO.Doctor.DTO.Models
         /// <summary>
         /// ФИО
         /// </summary>
-        public BaseUserDTO User { get; set; }
+        public BaseUserDTO? User { get; set; }
 
         /// <summary>
         /// Контакты
@@ -20,6 +20,6 @@ namespace HelpersDTO.Doctor.DTO.Models
         /// <summary>
         /// Специальность
         /// </summary>
-        public string Specialty { get; set; }
+        public string? Specialty { get; set; }
     }
 }

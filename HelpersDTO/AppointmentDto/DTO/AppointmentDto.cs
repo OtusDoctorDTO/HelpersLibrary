@@ -44,5 +44,6 @@
         /// Статус
         /// </summary>
         public string? Status { get; set; } = default;
+
     }
 }

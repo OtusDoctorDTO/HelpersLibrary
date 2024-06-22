@@ -8,6 +8,6 @@ namespace HelpersDTO.AppointmentDto
         /// <summary>
         /// Запись
         /// </summary>
-        public CreatingAppointmentDto Appointment {  get; set; }
+        public CreatingAppointmentDto? Appointment {  get; set; }
     }
 }
