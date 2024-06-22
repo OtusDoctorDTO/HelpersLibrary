@@ -27,5 +27,14 @@ namespace HelpersDTO.AppointmentDto.DTO
         /// Идентификатор пациента
         /// </summary>
         public Guid? PatientId { get; set; }
+        /// <summary>
+        /// Жалобы
+        /// </summary>
+        public string? Complaints { get; set; }
+        /// <summary>
+        /// Рекомендации к лечению
+        /// </summary>
+        public string? Recommendations { get; set; }
+        public bool IsCompleted { get; set; } = false;
     }
 }
