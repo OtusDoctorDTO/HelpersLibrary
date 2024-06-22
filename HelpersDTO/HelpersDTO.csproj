@@ -7,21 +7,23 @@
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Title>HelpersLibrary</Title>
     <Description>библиотека для обмена между микровервисами учебного проекта ОТУС команда DoctorDTO</Description>
-    <AssemblyVersion>1.0.0.39</AssemblyVersion>
-    <FileVersion>1.0.0.39</FileVersion>
-    <Version>1.0.39</Version>
+    <AssemblyVersion>1.0.0.40</AssemblyVersion>
+    <FileVersion>1.0.0.40</FileVersion>
+    <Version>1.0.40</Version>
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Doctor\Enums\**" />
     <Compile Remove="Patient\Enums\**" />
+    <EmbeddedResource Remove="Doctor\Enums\**" />
     <EmbeddedResource Remove="Patient\Enums\**" />
+    <None Remove="Doctor\Enums\**" />
     <None Remove="Patient\Enums\**" />
   </ItemGroup>
 
   <ItemGroup>
     <Folder Include="Authentication\Enums\" />
     <Folder Include="CallCenter\Enums\" />
-    <Folder Include="Doctor\Enums\" />
   </ItemGroup>
 
 </Project>
