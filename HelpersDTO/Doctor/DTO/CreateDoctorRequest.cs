@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace HelpersDTO.Doctor.DTO
 {
-    internal class CreateDoctorRequest : ServiceRequest
+    public class CreateDoctorRequest : ServiceRequest
     {
         public NewDoctorDTO? Doctor { get; set; }
     }

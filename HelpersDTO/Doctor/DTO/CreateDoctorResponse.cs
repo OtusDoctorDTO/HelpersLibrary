@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace HelpersDTO.Doctor.DTO
 {
-    internal class CreateDoctorResponse : ServiceResponse
+    public class CreateDoctorResponse : ServiceResponse
     {
     }
 }
