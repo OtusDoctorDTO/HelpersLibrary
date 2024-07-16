@@ -50,5 +50,8 @@ namespace HelpersDTO.Patient.DTO
         /// Является ли новым пациентом и нужно составить договор
         /// </summary>
         public bool IsNew { get; set; } = default;
+
+        public Guid SelectedDoctorId { get; set; }
+
     }
 }
